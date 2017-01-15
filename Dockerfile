@@ -12,3 +12,4 @@ RUN echo 'root:root' |chpasswd
 EXPOSE 8118
 
 CMD ["ssserver","-p","8118"]
+
