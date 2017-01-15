@@ -9,7 +9,7 @@ RUN apt-get update && \
 
 RUN echo 'root:root' |chpasswd
 	
-EXPOSE 8338
+EXPOSE 8388
 
 CMD ["ssserver","-k","moeyard"]
 
